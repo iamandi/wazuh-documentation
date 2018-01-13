@@ -17,7 +17,7 @@ Components
 ``````````
 - **Wazuh Manager**:  It receives data and analyzes data from the agents. To do that it uses decoders and rules that have been crafted to trigger security alerts. The manager is also used to distribute configuration files to the agents, and to monitor their status. In addition it can send control messages to trigger automatic actions at an agent level.
 
-+ **Registration Service**:  It use a secure mechanisms to register a client without any intervention on server side.
++ **Registration Service**:  It uses a secure mechanism to register a client without any intervention on server side.
 
 - :doc:`RESTful API <api/index>`: It provides an interface to manage and monitor the configuration of the manager and agents, also it could register clients/agents. It can be also used to inspect the manager log messages, decoders and rules. In addition it provides useful information related to the agents, including their status, operating system details, and file integrity monitoring and rootcheck alerts.
 
